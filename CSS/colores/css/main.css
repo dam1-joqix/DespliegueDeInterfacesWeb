@@ -1,0 +1,19 @@
+
+#id1{
+    background-color: rgb(255,255,0);
+}
+#id2{
+    background-color: rgba(255,0,255,125);
+}
+#id3{
+    background-color: hsl(320,40%,30%);
+}
+#id4{
+    background-color: hsla(0, 100%, 50%, .8);
+}
+div p:nth-child(2):hover{
+    background-color: white;
+}
+div:nth-child(2) p:nth-child(3):hover{
+    font-weight: bold;
+}

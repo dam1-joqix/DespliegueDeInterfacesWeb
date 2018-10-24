@@ -1,0 +1,26 @@
+ body{
+    background-color: lightgray;
+}
+h2{
+    margin: 10px;
+    clear: both;
+    background-color: grey;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+img{
+    float: left;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+em{
+    color: red;
+}
+strong{
+    background-color: white;
+}
+p{
+    text-indent: 2rem;
+}

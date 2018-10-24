@@ -1,0 +1,54 @@
+/*
+*Selecciona a visitados
+*/
+a::visited{
+    color: red;
+}
+/*
+*Selecciona a acticos
+*/
+a::active{
+    color: green;
+}
+/*
+*Selecciona a sin visitar
+*/
+a::link{
+    color: fuchsia;
+}
+/*
+*Selecciona inputs que tienen el foco de atención
+*/
+input:focus{
+    background-color: darksalmon;
+}
+/*
+*Selecciona un elemento a con el raton encima
+*/
+a:hover{
+    color: darkorange;
+}
+/*
+*Selecciona los tr que son hijos pares de su elemento padre
+*/
+tr:nth-child(2n){
+    background-color: aqua;
+}
+/*
+*Selecciona los tr que son hijos inpares de su padre
+*/
+tr:nth-child(2n+1){
+    background-color: aquamarine;
+}
+/*
+*Selecciona el tr que es primer hijo de su padre
+*/
+tr:first-child{
+    background-color: red;
+}
+/*
+*Selecciona el tr que es el ultimo hijo de su padre
+*/
+tr:last-child{
+    background-color: orchid;
+}

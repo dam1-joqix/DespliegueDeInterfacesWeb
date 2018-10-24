@@ -1,0 +1,31 @@
+/*colores: teal, red, blue, orange, purple, olive, fuchsia y green*/
+#titulo{
+    color: teal;
+}
+#subtitulo,caption,a em{
+    color: blue;
+}
+strong,a,th[scope]{
+    color: red;
+    
+}
+table, td, th{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+table,#adicional a{
+    color: green;
+}
+.destacado,table .especial,table strong{
+    color: orange;
+}
+.especial{
+    color: purple;
+}
+#adicional{
+    color: olive;
+}
+#adicional #especial{
+    color:fuchsia;
+}

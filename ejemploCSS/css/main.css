@@ -1,0 +1,97 @@
+/**
+*Selecciona el elemento con la etiqueta body
+*/
+body{
+    background-color: dimgrey;
+}
+/**
+*Selecciona elementos con la etiqueta h3
+*/
+h3{
+    background-color: aqua;
+}
+/**
+*Selecciona elementos con la etiqueta a
+*/
+a{
+    color: chartreuse;
+}
+/**
+*Selecciona elementos con las etiquetas h1 o h2
+*/
+h1,h2{
+    background-color: red;
+}
+/**
+article dentro de section a cualquier niver
+*/
+section article{
+    color: white;
+}
+/*
+li dentro de ul a cualquier nivel
+*/
+ul li{
+    background-color: lightgray;
+    
+}
+/*
+Elemento de la clase center
+*/
+.center{
+    text-align: center;
+}
+/*
+Elemento de la clase fonfoRojo
+*/
+.fondoRojo{
+    background-color: red;
+}
+/*
+Elemento con el id seccion
+*/
+#seccion{
+    width: 50%;
+}
+/*
+*Article descendiente directo de section
+*/
+section>article{
+    background-color: black;
+}
+/*
+articulo hermano de otro article
+*/
+article + article{
+    border-color: chartreuse;
+    border-style: inset;
+    border-width: 4px;
+}
+/*
+section con atributo id
+*/
+section[id]{
+    text-align: center;
+}
+/*
+section con atributo id="alinearderecha"
+*/
+section[id="alinearderecha"]{
+    text-align: right;
+}
+/*
+section con id que empieza por alinear
+*/
+section[id^="alinear"]{
+    border-color: darkred;
+    border-style: outset;
+    border-width: 4px;
+}
+/**
+article en el que una de sus clases sea este
+*/
+article[class~="este"]{
+     border-color: darkred;
+    border-style: dashed;
+    border-width: 5px;
+}

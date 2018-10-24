@@ -1,0 +1,61 @@
+/**0001**/
+p{
+    /**Todos los parrafos son de color negro y letra blanca**/
+    background-color: black;
+    color: white;
+    border-color: chartreuse;
+    border-style: solid;
+}
+/**0010**/
+.parrafo{
+    /**Los elementos de la clase parrafo son azules**/
+    background-color: blue;
+}
+/**0020**/
+.parrafo:hover{
+    /**Los elementos de la clase parrafo con el raton encima son rojos**/
+    color:red;
+}
+/**0100**/
+#p1{
+    /**p1 tiene color de fondo naranja**/
+    background-color: darkorange;
+}
+/**0011**/
+div .parrafo{
+    background-color: chartreuse;
+    color: brown;
+    border-color: aqua;
+    width: 25%!important;/*Se mantiene*/
+    display: inline-block;
+}
+/**0021**/
+div .parrafo:hover{
+    background-color: cyan;
+    width: 100%;
+     border-width: 2em;
+    border-color: red;
+    border-style: solid;
+}
+/**0100**/
+#p3{
+    background-color:yellow;
+}
+/**0003**/
+div p span{
+    background-color: white;
+    color: black;
+}
+/**0002**/
+p span{
+    background-color: black;
+    color: white;
+}
+/**0002**/
+div p{
+    border-width: 1em;
+}
+/**0012**/
+div p:hover{
+    border: none!important;/**no habrá borde**/
+}
