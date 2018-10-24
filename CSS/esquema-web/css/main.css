@@ -1,0 +1,28 @@
+header{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+nav{
+    background-color: red;
+    width: 10em;
+    float: left;
+    height: 55%;
+    position: absolute;
+    
+}
+section{
+    background-color: orange;
+    height: 60%;
+}
+footer{
+    height: 12%;
+    background-color: darkgreen;
+    
+}
+h1{
+    text-align: center;
+}
+body{
+    height: 800px;
+}
