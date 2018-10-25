@@ -1,24 +1,27 @@
 header{
     background-color: aqua;
     height: 100px;
+    line-height: 100px;
     width: 100%;
 }
 nav{
     background-color: red;
-    width: 10em;
+    width: 12em;
     float: left;
-    height: 55%;
-    position: absolute;
+    height: 90%;
+    
+    padding-top: 10px;
     
 }
 section{
     background-color: orange;
-    height: 60%;
+    height: 90%;
+    padding-top: 10px;
 }
 footer{
     height: 12%;
     background-color: darkgreen;
-    
+    padding-top: 10px;
 }
 h1{
     text-align: center;
