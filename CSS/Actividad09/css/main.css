@@ -1,0 +1,17 @@
+.navegacion{
+    background-color: lightgray;
+    border-color: lavenderblush;
+    border-style:solid;
+    border-width: 1px;
+    padding: 10px;
+}
+.left{
+    left: 1em;
+    position: absolute;
+    
+}
+.right{
+    right: 1em;
+    position:absolute;
+    
+}
