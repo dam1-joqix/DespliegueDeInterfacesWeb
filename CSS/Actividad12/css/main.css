@@ -1,8 +1,6 @@
 body{
     background-color: #17568C;
-    
-    
-    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    
 }
 footer{
     color: white;
@@ -11,39 +9,39 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    
-    
+    font-size: 13px;
+    line-height: 18px;
 }
 footer table td{
     width: 33.33%;
 }
-.width-100{
-    width: 100%;
-}
-main{
+.width-100,
+main {
     width: 100%;
 }
 .left{
     text-align: left;
+    
 }
 .right{
     text-align: right;
 }
 .center{
     text-align: center;
+    font-size: 22px;
 }
 
 #login{
     display: block;
     margin: auto;
     width: 260px;
-    height: 278px;
+    height: 300px;
     padding: 19px;
     border-width: 1px;
     background-color: #F0F0F0;
     text-align: center;
     align-content: center;
-    margin-top: 30%;
+    margin-top: 300px;
     border-radius: 5px;
     
 }
@@ -58,10 +56,14 @@ hr{
     border-top:1px solid #eee;
 }
 .divForo{
-    margin: 1em;
     border: 1px solid #ccc;
     padding: 0;
-    width: fit-content;
+    width: 240px;
+    border-radius: 2px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1em;
 }
 .spanForm{
     background-color: #EEEEEE;
@@ -71,15 +73,21 @@ hr{
     text-align: center;
     margin: 0px;
     margin-right: 0.5em;
-
 }
 
 #sIdiona{
     background-color: white;
+    font-size: 0.84em;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: #444;
 }
 #sIdiona, input {
    width: 150px;
    height: 30px;
+   border: 1px solid #ccc;
+   
 }
 #Conectar{
     color: white;
@@ -88,12 +96,14 @@ hr{
     width: 230px;
     box-shadow: 0;
     border-radius: 5px;
+    margin-top: 15px;
 }
 #Conectar:hover{
     background-color: #185B91;
     border-style: solid;
     
 }
+
 #Conectar:after{
     content: f023
 }

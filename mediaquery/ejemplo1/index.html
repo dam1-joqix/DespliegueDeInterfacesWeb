@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: tan;
+            color: black;
+            
+        }
+        #fondo{
+background-image:
+url("https://images.homedepot-static.com/productImages/05462cc6-6f19-459f-a40f-160ca56ca5fb/svn/brewster-wallpaper-3097-05sam-64_1000.jpg");
+            height: 800px;
+            width: 90%;
+            display: block;
+            margin: auto;
+        }
+        @media screen and (max-width: 1080px) {
+            body {
+                background-color: cyan;
+                color: white;
+                font-size: 1.25em;
+            }
+            #fondo{
+background-image:
+url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/vintage-paper-wallpaper-texture-3-280x280.jpg");
+                width: 85%;
+                height: 500px;
+            }
+        }
+    
+        /* On screens that are 992px wide or less, the background color is blue */
+        @media screen and (max-width: 992px) {
+            body {
+                background-color: blue;
+                color: white;
+                font-size: 1.5em;
+            }
+            #fondo{
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Gfp-interior-shirt-texture.jpg");
+                width: 80%;
+                height: 500px;
+            }
+        }
+    
+        /* On screens that are 600px wide or less, the background color is olive */
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: olive;
+                color: white;
+                font-size: 2em;
+            }
+            #fondo{
+                height: 300px;
+                width: 50%;
+                background-image: url("https://www.textures.com/system/gallery/photos/Fabric/Carpet/107909/Carpet0001_1_270.jpg");
+            }
+        }
+        @media screen and (max-width: 500px) {
+            body {
+                background-color: magenta;
+                color: cyan;
+                font-size: 2em;
+            }
+            #fondo{
+                height: 150px;
+                width: 25%;
+                background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/449530/1160/1160/m1/fpnw/wm1/creative-temp-.jpg?1429264912&s=1417459451ad7b76122f70c0092aafa5");
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Resize the browser window to see the effect!</h1>
+    <p>
+        By default, the background color of the document is "tan". If the screen size is 992px or less, the color will
+        change to "blue". If it is 600px or less, it will change to "olive".
+    </p>
+    <div id="fondo"></div>
+</body>
+</html>
