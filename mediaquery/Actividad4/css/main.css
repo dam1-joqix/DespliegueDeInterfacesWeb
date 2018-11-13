@@ -1,0 +1,114 @@
+body{
+    background-color: #F6F6F6;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: Verdana;
+}
+header{
+    background-image: url("https://campusvirtual.unex.es/cas/images/Fondo.jpg");
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+   padding: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    
+}
+main{
+    background-image: url("https://campusvirtual.unex.es/cas/images/Fondo.jpg");
+    padding: 1px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background-image: url("https://campusvirtual.unex.es/cas/images/Fondo.jpg");
+    text-align: center;
+    color: gray;
+    font-size: 0.8em;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+}
+#formulario{
+    background-color: #EEEEEE;
+    width: 20em;
+    padding: 20px;
+    margin:auto;
+    margin-top: 4em;
+}
+#idiomas,#dudas{
+     text-align: center;
+     font-size: 0.7em;
+}
+#idiomas strong{
+    display: block;
+}
+#formulario h4{
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 1px;
+    padding-bottom: 0.5em;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 0.93em;
+}
+label{
+    display: block;
+    color: gray;
+    font-size: 0.7em;
+}
+input[type="text"],
+input[type="password"] {
+    width: 13em;
+    border-radius: 10%;
+    height: 2em;
+    border-style: solid;
+}
+input[type="submit"],
+input[type="reset"] {
+    border-style: outset;
+  
+}
+input[type="submit"]:active,
+input[type="reset"]:active {
+    border-style: inset;
+}
+#botones{
+    margin-top: 10px;
+}
+#dudas{
+    margin-bottom: 30px;
+}
+#dudas strong{
+    display: block;
+    
+}
+@media screen and (max-width: 900px){
+    #logoUEX{
+        width: 30em;
+    }
+}
+@media screen and (max-width: 700px){
+    #logoUEX {
+        width: 20em;
+    }
+    #formulario{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    body{
+        padding: 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 95%;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        background-color:darkgray;
+        color: white;
+        width: 95%;
+        padding: 1em;
+    }
+}

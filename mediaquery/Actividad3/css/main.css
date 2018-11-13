@@ -1,0 +1,58 @@
+header{
+    background-color: yellow;
+    height: 5em;
+}
+nav{
+    background-color: green;
+    height: 40em;
+    width: 25%;
+    float: left;
+}
+main{
+    background-color: blue;
+    height: 40em;
+    width: 50%;
+    float: left;
+
+}
+aside{
+    background-color: red;
+    height: 40em;
+    width: 25%;
+    float: right ;
+}
+footer{
+    background-color: orange;
+    height: 5em;
+    clear: both;
+}
+@media screen and (max-width: 1000px){
+    nav{
+        width: 30%;
+    }
+    main {
+        width: 70%;
+        float: right;
+    }
+
+    aside {
+        clear: both;
+        height: 5em;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav {
+        width: 100%;
+        height: 5em;
+    }
+
+    main {
+        width: 100%;
+
+    }
+
+    aside {
+        display: none;
+    }
+}
