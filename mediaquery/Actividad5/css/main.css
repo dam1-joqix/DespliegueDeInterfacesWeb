@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray
+}
+header{
+    background-color: darkcyan;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+}
+#imagenJoqix{
+   width: 20%;
+   vertical-align: middle;    
+}
+#titulo{
+    display: inline;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+article{
+    border: solid 1px darkcyan;
+    margin-top: 0.5em;
+    
+}
+article h4{
+    text-align: center;
+    margin: 0;
+    background-color: darkcyan;
+    color: white;
+    
+}
+article p{
+    margin: 5%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    margin-top: 1em;
+}
+@media screen and (min-width: 600px){
+    article{
+        
+    }
+}
