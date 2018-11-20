@@ -2,33 +2,39 @@
     transition: all 1s;
 }
 body{
-    background-color: lightgray
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    background-color: darkcyan;
+   
     vertical-align: middle;
     text-align: center;
     color:white;
-    height: 5em;
-
+    height: 6em;
 }
 #imagenJoqix{
   height: 5em;
    vertical-align: middle;
    float: left;
+   margin-top: 0.5em;
+   border-radius: 20em;
+   margin-left: 0.1em;
 }
 #titulo{
     float: right;
-    margin-right: 1em;
+    margin-right: 0.1em;
+    font-variant: small-caps;
 }
 main{
     width: 90%;
     display: block;
     margin: auto;
+
 }
 article{
     border: solid 1px darkcyan;
     margin-top: 0.5em;
+    overflow: auto;
     
 }
 article h4{
@@ -36,7 +42,48 @@ article h4{
     margin: 0;
     background-color: darkcyan;
     color: white;
-    
+    padding: 0.5em;
+    font-variant: small-caps;
+}
+.color-primary-0 {
+    color: #00452B
+}
+
+/* Main Primary color */
+.color-primary-1 {
+    color: #012C1C
+}
+
+.color-primary-2 {
+    color: #003521
+}
+
+.color-primary-3 {
+    color: #006941
+}
+
+.color-primary-4 {
+    color: #008F59
+}
+.bg-primary-0 {
+    background-color: #00452B
+}
+
+/* Main Primary color */
+.bg-primary-1 {
+    background-color: #012C1C
+}
+
+.bg-primary-2 {
+    background-color: #003521
+}
+
+.bg-primary-3 {
+    background-color: #006941
+}
+
+.bg-primary-4 {
+    background-color: #008F59
 }
 article p{
     margin: 5%;
@@ -44,10 +91,16 @@ article p{
 footer{
     text-align: center;
     color: white;
-    background-color: darkcyan;
     margin-top: 1em;
+    font-variant: small-caps;  
 }
-@media screen and (max-width: 399px){
+a{
+    text-decoration: none;
+}
+article:nth-child(1) {
+    clear: both;
+}
+@media screen and (max-width: 401px){
     header{
         height: 8em;
     }
@@ -61,50 +114,62 @@ footer{
         display: block;
         margin: auto;
     }
+    
 }
-@media screen and (min-width: 600px){    
-    article {
-        float: left;
-        width: 40%;
-        height: 20em;
-        margin-left: 1em;
+
+@media screen and (min-width: 500px){
+    #imagenJoqix {
+        margin-left: 2em;
+    }
+
+    #titulo {
         margin-right: 1em;
     }
-    article:nth-child(1){
-        clear: both;
-    }
-    footer{
-        clear: both;
-    
-    }
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 700px){
     
     article {
-         width: 25%;
-         height: 23em;
+        float: left;
+         width: 40%;
+         height: 25em;
          margin-bottom: 1em;
+         margin-left: 0.5em;
+         margin-right: 0.5em;
      }
+      
+
+      footer {
+          clear: both;
+
+      }
 
 }
-@media screen and (min-width: 900px){
-     
-
+@media screen and (min-width: 800px){
      article {
-         width: 20%;
-         height: 26em;
+         width: 28%;
+         height: 30em;
          
      }
+    
 }
-@media screen and (min-width: 1080px) {
-    article{
-        height: 23em;
+@media screen and (min-width: 900px){
+   
+
+    article {
+        width: 27%;
+        height: 29em;
+
     }
 }
 @media screen and (min-width: 1280px) {
-    article {
-        width: 14%;
-        height: 27em;
+    main{
+        width: 90%;
     }
+    article{
+        width: 18%;
+        height: 28em;
+        
+    }
+    
 }
