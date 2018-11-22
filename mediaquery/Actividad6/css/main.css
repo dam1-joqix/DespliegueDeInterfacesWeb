@@ -1,9 +1,12 @@
 html{
     font-size: 12px;
 }
+*{
+    transition: all 1s;
+}
 header{
     width: 100%;
-    height: 200px;
+    height: 16em;
     background-image: url("../img/Patrones/bg_verde.png");
     margin-bottom: 0;
 }
@@ -61,7 +64,7 @@ footer{
     max-height: 12em;
     text-align: center;
     background-image: url("../img/Patrones/bg_gris.png");
-    padding: 1em;
+    padding: 0;
 }
 #tablaFooter{
     margin: auto;
@@ -149,11 +152,7 @@ hr{
     .inicioSesion {
         width: 90%;
     }
-     input[type="submit"],
-     label,
-     input {
-         width: 80%;
-     }
+    
      nav span {
 
          right: 5%;
@@ -161,12 +160,16 @@ hr{
          top: 9.55em;
 
      }
+     .iconosSociales {
+         right: 5%;
+     }
 }
 @media screen and (max-width: 670px){
     header img {
         padding-left: 0;
-        max-width: 100%;
+        max-width: 90%;
     }
+    
 
     .imgDiv {
         text-align: center;
@@ -182,7 +185,49 @@ hr{
         position: static;
         display: block;
         margin: auto;
-        margin-top: 1em;
+        margin-top: 0.025em;
+    }
+    nav li
+    ,nav span {
+        position: initial;
+       float: left;
+        text-align: center;
+        width: 22%;
+        border: 1px solid black;
+        margin: 0;
+        height: 2.5em;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         flex-direction: column;
+         background-color: #AFAFAF;
+         border-radius: 1em;
+         color: #393939;
+         text-transform: lowercase;
+         text-transform: capitalize;
+         font-variant: small-caps;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+        }
+    
+    nav {
+        padding-left: 0;
+        text-align: center;
+        background-image: url("../img/Patrones/bg_verde.png");
+        height: fit-content;
+        
+    }
+    .borde{
+        display: none;
+    }
+    header {
+       height: 16em;
+        padding-bottom: 1em;
+    }
+    input[type="submit"],
+    label,
+    input {
+        width: 80%;
     }
     
 }
@@ -193,10 +238,17 @@ hr{
         width: 90%;
     }
     
-    nav{
-        display: none;
+    
+    #tablaFooter img {
+        max-width: 100%;
     }
+     
 }
 @media screen and (max-width: 400px){
-
+    header {
+        height: 5em;
+    }
+    .iconosSociales{
+        display: none;
+    }
 }
