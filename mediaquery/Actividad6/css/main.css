@@ -1,254 +1,59 @@
-html{
-    font-size: 12px;
-}
-*{
-    transition: all 1s;
-}
-header{
-    width: 100%;
-    height: 16em;
-    background-image: url("../img/Patrones/bg_verde.png");
-    margin-bottom: 0;
-}
-header img{
-    padding-left: 15%;   
-}
-body{
-   background-image: url("https://mascvuex.unex.es/sites/all/themes/yara/images/bg.jpg");
-   padding: 0;
-   color: #393939;
-}
-.borde{
-    background: url("https://mascvuex.unex.es/sites/all/themes/yara/images/dot.png"), repeat-x;
-    width: 100%;
-    height: 9px;
-    margin: 0;
-}
 nav{
-    padding-left: 15%;
+    background-color: greenyellow;
 }
-nav span{
-    color: white;
-    right: 15%;
-    position: absolute;
-    top: 9.55em;
-    
+article{
+    background-color: yellow;
 }
-label{
-    font-weight: bold;
+#aside1{
+    background-color: aqua;
 }
-nav span:hover, nav li:hover{
-    cursor: pointer;
-    color: white;
-}
-.iconosSociales{
-    right: 15%;
-    top: 1em;
-    position: absolute;
-    font-size: 2em;
-}
-nav li{
-    display: inline-block;
-    margin: 1em;
-    color: lightgray;
-}
-main{
-    width: 100%;
-    height: auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
+#aside2{
+    background-color: purple;
 }
 footer{
-    width: 100%;
-    height: auto;
-    max-height: 12em;
-    text-align: center;
-    background-image: url("../img/Patrones/bg_gris.png");
-    padding: 0;
+    background-color: green;
 }
-#tablaFooter{
-    margin: auto;
+nav,article,#aside2,footer{
+ height: 7.5em;
 }
-#tablaFooter img{
-    max-width:110%;
-}
-#tablaFooter td{
-    width: 25%;
-}
-.inicioSesion {
-    display: block;
-    margin: auto;
-    width: 60%;
-    background-color: #F4F4F4;
-    padding: 1em;
-    border-radius: 1%;
-    font-size: 100%;
-    font-family: Lucida Grande,
-    Verdana,
-    Arial,
-    sans-serif;
-}
-.texto-rojo{
-    color: red;
-}
-label{
-    margin-top: 1em;
-}
-label,input{
-    display: block;
-    width: 50%;
-}
-input[type="submit"]{
-    margin-top: 1em;
-    width: auto;
-    padding: 0,19px,0,19px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #A6A6A6;
-    font-size: 1.16em;
-    background-color: #AFAFAF;
-    border-radius: 10%;
-    
-}
-footer img:hover{
-    width: 110%;
-}
-footer p{
-    color: white;
-
-}
-.migasPan{
-    font-size: 0.83em;
-}
-.pequenyo{
-    font-size: 0.85em;
-}
-body{
-    font-size: 1.16em;
-
-}
-.fab{
-    color: white;
-}
-.fab:hover{
-    cursor: pointer;
-    font-size: 2em;
-}
-h2{
-    font-size: 2em;
-    font-weight: normal;
-    font-family: 'Oswald',
-    sans-serif;
-}
-hr{
-    margin-bottom: 0;
-}
-@media screen and (max-width: 1000px){
-    .inicioSesion {
+@media screen and (min-width: 600px){
+    nav{
+        width: 20%;
+        height: 30em;
+        float: left;
+    }
+    main{
         width: 80%;
+        float: right;
+        height: 30em;
     }
-}
-@media screen and (max-width: 800px){
-    .inicioSesion {
-        width: 90%;
+    article{
+        height:50%;
     }
-    
-     nav span {
-
-         right: 5%;
-         position: absolute;
-         top: 9.55em;
-
-     }
-     .iconosSociales {
-         right: 5%;
-     }
-}
-@media screen and (max-width: 670px){
-    header img {
-        padding-left: 0;
-        max-width: 90%;
-    }
-    
-
-    .imgDiv {
-        text-align: center;
-        padding: 0;
-        display: block;
-        margin: auto;
-        max-width: 100%;
-    }
-
-    .iconosSociales {
-        text-align: center;
+    #aside2{
         clear: both;
-        position: static;
-        display: block;
+    }
+   
+}
+@media screen and (min-width: 900px) {
+     main {
+         width: 60%;
+         float: right;
+         float: left;
+     }
+     #aside2{
+         clear: none;
+         float: right;
+         width: 20%;
+         height: 30em;
+     }
+     footer{
+         clear: both;
+     }
+}
+@media screen and (min-width: 1200px){
+    #contenedor{
+        width: 1200px;
         margin: auto;
-        margin-top: 0.025em;
-    }
-    nav li
-    ,nav span {
-        position: initial;
-       float: left;
-        text-align: center;
-        width: 22%;
-        border: 1px solid black;
-        margin: 0;
-        height: 2.5em;
-         display: flex;
-         justify-content: center;
-         align-content: center;
-         flex-direction: column;
-         background-color: #AFAFAF;
-         border-radius: 1em;
-         color: #393939;
-         text-transform: lowercase;
-         text-transform: capitalize;
-         font-variant: small-caps;
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
-        }
-    
-    nav {
-        padding-left: 0;
-        text-align: center;
-        background-image: url("../img/Patrones/bg_verde.png");
-        height: fit-content;
-        
-    }
-    .borde{
-        display: none;
-    }
-    header {
-       height: 16em;
-        padding-bottom: 1em;
-    }
-    input[type="submit"],
-    label,
-    input {
-        width: 80%;
-    }
-    
-}
-@media screen and (max-width: 500px){
-    input[type="submit"],
-    label,
-    input {
-        width: 90%;
-    }
-    
-    
-    #tablaFooter img {
-        max-width: 100%;
-    }
-     
-}
-@media screen and (max-width: 400px){
-    header {
-        height: 5em;
-    }
-    .iconosSociales{
-        display: none;
     }
 }
