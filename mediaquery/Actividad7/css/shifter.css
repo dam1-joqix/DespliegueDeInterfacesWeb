@@ -1,0 +1,252 @@
+/**
+* Css de tipo Layout shifter
+*/
+* {
+    transition: all 1s;
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    height: 6em;
+}
+
+#imagenJoqix {
+    height: 5em;
+    vertical-align: middle;
+    float: left;
+    margin-top: 0.5em;
+    border-radius: 20em;
+    margin-left: 0.1em;
+}
+
+#titulo {
+    float: right;
+    margin-right: 0.1em;
+    font-variant: small-caps;
+    
+}
+
+main {
+    width: 90%;
+    display: block;
+    margin: auto;
+
+}
+
+article {
+    border: solid 1px darkcyan;
+    margin-top: 0.5em;
+    overflow: auto;
+    color: #ccc;
+    box-sizing: border-box;
+
+}
+
+article h4 {
+    text-align: center;
+    margin: 0;
+    background-color: darkcyan;
+    color: white;
+    padding: 0.5em;
+    font-variant: small-caps;
+}
+
+article p {
+    margin: 5%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    font-variant: small-caps;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+article:nth-child(1) {
+    clear: both;
+}
+
+@media screen and (max-width: 401px) {
+    header {
+        height: 8em;
+    }
+
+    #imagenJoqix {
+        float: none;
+        display: block;
+        margin: auto
+    }
+
+    #titulo {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    #imagenJoqix {
+        margin-left: 2em;
+    }
+
+    #titulo {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    /*original
+    article {
+        float: left;
+         width: 40%;
+         height: 25em;
+         margin-bottom: 1em;
+         margin-left: 0.5em;
+         margin-right: 0.5em;
+     }
+      
+
+      footer {
+          clear: both;
+
+      }
+*/
+header {
+    float: left;
+    width: 20%;
+    height: 66em;
+}
+#imagenJoqix{
+    float: none;
+    margin: 0;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    width: 80%;
+    height: auto;
+}
+#contenedorTitulo{
+    transform: rotate(90deg);
+    display: block;
+    margin: 50%;
+}
+#titulo{
+    float: none;
+    width: 9em;
+    
+   
+}
+main{
+    width: 80%;
+    float: right;
+}
+footer{
+    clear: both;
+}
+
+
+}
+
+@media screen and (min-width: 850px) {
+
+    /* original
+      article {
+         width: 28%;
+         height: 30em;
+         
+     }
+    */
+    /*tiny
+    main {
+        width: 800px;
+    }
+
+    footer {
+        font-size: 2em;
+    }
+
+    article h4 {
+        font-size: 2em;
+    }*/
+    header{
+        height: 68em;
+    }
+  
+}
+
+@media screen and (min-width: 900px) {
+    /*original
+
+    article {
+        width: 27%;
+        height: 29em;
+
+    }*/
+    article{
+        width: 50%;
+        float: left;
+        height: 21em;
+        margin: 0;
+    }
+    article:last-child{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        height: 50em;
+    }
+
+}
+@media screen and (min-width: 1000px) {
+    article{
+        height: 21em;
+    }
+    header{
+        height: 54em;
+    }
+    
+}
+@media screen and (min-width: 1280px) {
+    /*original
+    main{
+        width: 90%;
+    }
+    article{
+        width: 18%;
+        height: 28em;
+        
+    }*/
+    article{
+        width: 25%;
+        height: 24em
+    }
+    header{
+        height: 34em;
+    }
+    #imagenJoqix{
+        width: 50%;
+    }
+    #contenedorTitulo {
+        margin: 30%;
+    }
+    body{
+        width: 1280px;
+        margin: auto;
+
+    }
+
+}

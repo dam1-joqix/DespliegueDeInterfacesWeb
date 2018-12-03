@@ -46,46 +46,9 @@ article h4{
     padding: 0.5em;
     font-variant: small-caps;
 }
-.color-primary-0 {
-    color: #00452B
-}
-
-/* Main Primary color */
-.color-primary-1 {
-    color: #012C1C
-}
-
-.color-primary-2 {
-    color: #003521
-}
-
-.color-primary-3 {
-    color: #006941
-}
-
-.color-primary-4 {
-    color: #008F59
-}
-.bg-primary-0 {
-    background-color: #00452B
-}
-
-/* Main Primary color */
-.bg-primary-1 {
-    background-color: #012C1C
-}
-
-.bg-primary-2 {
-    background-color: #003521
-}
-
-.bg-primary-3 {
-    background-color: #006941
-}
-
-.bg-primary-4 {
-    background-color: #008F59
-}
+/*
+* Css de tipo Layout shifter
+*/
 article p{
     margin: 5%;
 }

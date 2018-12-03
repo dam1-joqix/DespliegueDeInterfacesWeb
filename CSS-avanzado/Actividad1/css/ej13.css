@@ -1,0 +1,45 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.elemento {
+    background-color: aquamarine;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#elemento1 {
+    background-color: #122738;
+}
+
+#elemento2 {
+    background-color: #183449;
+}
+
+#elemento3 {
+    background-color: #214661;
+}
+
+#elemento4 {
+    background-color: #2A5A7E;
+}
+
+#elemento5 {
+    background-color: #34719E;
+}
+
+#elemento6 {
+    background-color: #3F86BC;
+}
+
+#elemento7 {
+    background-color: #4698D4;
+}

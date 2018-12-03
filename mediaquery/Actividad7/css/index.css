@@ -1,0 +1,24 @@
+/*
+*Estilos básicos para el index
+*/
+header,footer {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+nav ul{
+    text-align: center;
+}
+nav a{
+    color: white;
+}
+article{
+    margin-bottom: 0.5em;
+}
+article p{
+      max-width: 90%;
+      width: fit-content;
+      margin:auto;
+    text-align: center;
+    color: #BBB;
+}
