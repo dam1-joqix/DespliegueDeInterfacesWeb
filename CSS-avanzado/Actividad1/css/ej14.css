@@ -1,9 +1,11 @@
 .contenedor {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
     width: 100%;
+    justify-content: space-around;
 }
 
 .elemento {

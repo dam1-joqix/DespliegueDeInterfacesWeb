@@ -1,9 +1,12 @@
 .contenedor {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    align-items:baseline;
     width: 100%;
+      align-content: space-around;
+      height: 200px;
 }
 
 .elemento {
@@ -13,32 +16,44 @@
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+
+    line-height: 1em;
+    
+
 }
 
 #elemento1 {
     background-color: #122738;
+    font-size: 4em;
 }
 
 #elemento2 {
     background-color: #183449;
+   font-size: 2.8em;
+
 }
 
 #elemento3 {
     background-color: #214661;
+  font-size: 2em;
 }
 
 #elemento4 {
     background-color: #2A5A7E;
+   font-size: 3em;
 }
 
 #elemento5 {
     background-color: #34719E;
+   font-size: 2.5em;
 }
 
 #elemento6 {
     background-color: #3F86BC;
+    font-size: 4em;
 }
 
 #elemento7 {
     background-color: #4698D4;
+    font-size: 3em;
 }

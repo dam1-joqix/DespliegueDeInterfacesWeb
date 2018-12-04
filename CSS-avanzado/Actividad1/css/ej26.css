@@ -1,14 +1,14 @@
 .contenedor {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     width: 100%;
 }
 
 .elemento {
     background-color: aquamarine;
-    width: 200px;
+  width: 200px;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -29,6 +29,7 @@
 
 #elemento4 {
     background-color: #2A5A7E;
+   width: 400px;
 }
 
 #elemento5 {
