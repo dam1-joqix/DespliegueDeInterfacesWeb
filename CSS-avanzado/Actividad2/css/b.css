@@ -1,0 +1,35 @@
+body{
+    background-color: #35CC35;
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+
+      
+}
+header{
+    background-color:#DB1B3E;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+.enlace{
+    display: block;
+    height: 2em;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 2em;
+}
+.enlace:hover{
+    background-color: #565656;
+    color: white;
+}
+nav {
+    display: flex;
+    background-color: #CBCBCB;
+    justify-content: center;
+    flex-wrap: nowrap;
+}

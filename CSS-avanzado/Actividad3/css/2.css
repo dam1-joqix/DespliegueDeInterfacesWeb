@@ -1,0 +1,27 @@
+body{
+    
+    margin:0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50em;
+    background-color: #DB1B3D;
+}
+.punto{
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: 1em;
+}
+#uno{
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+#dos{
+    align-self: flex-end;
+    justify-self: flex-end;   
+}
