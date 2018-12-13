@@ -1,0 +1,123 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50em;
+}
+/* Contenedor general */
+#contenedor,#contenedor2 {
+  display: flex;
+  /* Mostramos las caras en fila*/
+  flex-direction: row; 
+  /* Las separamos con espacio entre medias*/
+  justify-content:space-between;
+
+  
+}
+
+
+/* Creamos el círculo de un color*/
+.circulo {
+  background-color:black;
+  border-radius:50%;
+  width: 25px;
+  height: 25px;
+}
+
+/* Creamos un cuadrado para cada cara y lo hacemos flexible y con espacio entre medias */
+.cara {
+  width: 100px;
+  height: 100px;
+  
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+  
+}
+
+/* CARA 1 */
+#uno {
+  /*Centro Verticalmente*/
+  align-items:center;
+  /* Centro Horizontalmente*/
+  justify-content:center;
+}
+
+/* CARA 2 */
+/*El segundo círculo lo posiciono abajo del todo*/
+#dos .circulo:nth-child(2) {
+  align-self:flex-end;
+}
+
+/* CARA 3 */
+/* El segundo lo centramos verticalmente*/
+#tres .circulo:nth-child(2) {
+  align-self:center;
+}
+/* El tercero lo colocamos abajo */
+#tres .circulo:nth-child(3) {
+  align-self:flex-end;
+}
+/* CARA 4 */
+/* Creamos una clase para posicionar los círculos en columna*/
+.columna {
+  display: flex;
+  justify-content:space-between;
+  flex-direction:column;
+}
+
+/* CARA 5 */
+/* Posicionamos el círculo de la segunda columna al centro en vertical */ 
+#cinco .columna:nth-child(2){
+  align-self:center;
+}
+
+/* CARA 6 */
+/* Posicionamos el círculo de la segunda columna al centro en vertical */ 
+#cinco .columna:nth-child(2){
+  align-self: center;
+}
+.separador{
+  background-color: black;
+  border-radius: 2em;
+  height: 8px;
+  width: 150px;
+}
+.separadorHorizontal {
+  background-color: black;
+  border-radius: 2em;
+  height: 150px;
+  width: 8px;
+}
+.ficha{
+  width: 150px;
+  height: 320px;
+  border: 5px solid black;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.fichahorizontal {
+  width: 320px;
+  height: 150px;
+  border: 5px solid black;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.seisHorizontal{
+  flex-direction: column;
+
+}
+.fila {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}

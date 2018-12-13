@@ -1,7 +1,9 @@
-body{
-    
-    margin:0;
-    padding: 0;
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
 .dado{
     display: flex;
@@ -9,8 +11,17 @@ body{
     background-color: #DB1B3D;
     border: 1px solid black;
     width: 20em;
-    margin: 1em;
-    float: left;
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+  
+}
+.punto {
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+
 }
 #cara1{
      justify-content: center;
@@ -24,18 +35,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-#cara4{
+#cara4,#cara5,#cara6{
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
 }
-.punto{
-    background-color: white;
-    width: 5em;
-    height: 5em;
-    border-radius: 50%;
-    margin: 1em;
-}
+
 #dos-1 {
     align-self: flex-start;
     justify-self: flex-start;
@@ -54,11 +59,20 @@ body{
      align-self: flex-end;
      justify-self: flex-end;
 }
-#inf{
+#inf,#inf2,#inf3{
+    display: flex;
+    justify-content: space-between;
+  
+}
+#sup,#sup2,#sup3{
     display: flex;
     justify-content: space-between;
 }
-#sup{
-    display: flex;
+#midle{
+    display:flex;
+    justify-content: center;
+}
+#midle2{
+    display:flex;
     justify-content: space-between;
 }
