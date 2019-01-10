@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #801515;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    align-content: space-between;
+    flex-direction: column;
+   
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D46a6a;
+    border-radius: 1em;
+    height: 0.05em;
+    margin-left: 1em;
+    padding: 1em;
+    width: 5em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+#contenedor{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA3939;
+    height: 20em;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D46a6a;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #550000;
+    height: 6em;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+@media screen and (min-width: 700px){
+    #contenedor{
+        flex-direction: row;
+    }
+    main{
+        width: 80%;
+        height: 30em;
+    }
+    aside{
+        width: 20%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:  center;        
+        flex-direction: row;
+       
+    }
+    
+    
+}
