@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 5px;
+    
+}
+.cara{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 2px;  
+    padding: 5px;
+}
+#cara1{
+     grid-template-areas: ". . ."
+                        ". uno ."
+                        ". . ."
+}
+#cara2 {
+    grid-template-areas: "uno . ."
+                        ". . ."
+                        ". . dos"
+}
+#cara3 {
+    grid-template-areas: "uno . ."
+                        ". dos ."
+                        ". . tres"
+}
+#cara4 {
+    grid-template-areas: "uno . dos"
+                        ". . ."
+                        "tres . cuatro"
+}
+#cara5 {
+    grid-template-areas: "uno . dos"
+                        ". tres ."
+                        "cuatro . cinco"
+}
+#cara6 {
+    grid-template-areas: "uno . dos"
+                        "tres . cuatro"
+                        "cinco . seis"
+}
+.circulo{
+    background-color: white;
+     border-radius: 50%;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+}
+.tres{
+    grid-area: tres;
+}
+.cuatro{
+    grid-area: cuatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+.seis{
+    grid-area: seis;
+}

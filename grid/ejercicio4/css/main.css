@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    
+}
+.ficha{
+    display: grid;
+    grid-template-rows: 1fr 8px 1fr; 
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 150px;
+    box-sizing: content-box;
+    padding: 0.5em;
+    border-radius: 1em;
+    grid-gap: 0.5em;
+}
+.separador{
+    background-color: black;
+    width: 150px;
+    border-radius: 5px
+}
+.cara{
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 2px;  
+    padding: 5px;
+}
+.carauno{
+     grid-template-areas: ". . ."
+                        ". uno ."
+                        ". . .";
+}
+.carados {
+    grid-template-areas: "uno . ."
+                        ". . ."
+                        ". . dos";
+}
+.caratres {
+    grid-template-areas: "uno . ."
+                        ". dos ."
+                        ". . tres";
+}
+.caracuatro {
+    grid-template-areas: "uno . dos"
+                        ". . ."
+                        "tres . cuatro";
+}
+.caracinco {
+    grid-template-areas: "uno . dos"
+                        ". tres ."
+                        "cuatro . cinco";
+}
+.caraseis {
+    grid-template-areas: "uno . dos"
+                        "tres . cuatro"
+                        "cinco . seis";
+}
+.circulo{
+    background-color: black;
+     border-radius: 50%;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+}
+.tres{
+    grid-area: tres;
+}
+.cuatro{
+    grid-area: cuatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+.seis{
+    grid-area: seis;
+}
