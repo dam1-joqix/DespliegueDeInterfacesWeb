@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-rows: 10px 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: 25px 1fr 25px;
+    grid-template-rows: 25px 1fr 25px;
+    
+    grid-template-areas: ". letrasReverse ."
+                        "numeros tablero numerosReverse"
+                        ". letras .";
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+.letras{
+    display: grid;
+    grid-template-columns:repeat(8,1fr);
+}
+.numeros{
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+}
+.numeros div,.letras div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#letras{
+    grid-area: letras;
+}
+#letrasReves{
+    grid-area: letrasReverse;
+}
+#numeros{
+    grid-area: numeros;
+}
+#numerosReves{
+    grid-area: numerosReverse;
+}
+#tablero{
+    grid-area: tablero;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.porcion{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr)
+}
+.casilla{
+    border: 1px solid black;
+}
+.fila1:nth-child(2n), .fila2:nth-child(2n+1), .fila3:nth-child(2n), .fila4:nth-child(2n+1) {
+    background-color: black;
+}
+#letrasReves div,#numerosReves div{
+    transform: rotate(-180deg)
+}
