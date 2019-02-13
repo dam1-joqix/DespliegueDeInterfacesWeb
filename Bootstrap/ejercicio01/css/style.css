@@ -1,0 +1,29 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99vw;
+}
+.bg-green{
+    background-color: limegreen;
+}
+.bg-pink{
+    background-color: palevioletred;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-rosa{
+    background-color: lightpink;
+}
+.bg-blue{
+    background-color: aquamarine;
+}
+.alto,
+.alto>h3 {
+    height: 70px;
+   line-height: 70px;
+}

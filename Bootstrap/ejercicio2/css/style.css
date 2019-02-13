@@ -1,0 +1,15 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 98vw;
+}
+.alto{
+    height: 600px;
+}
+header,footer{
+    height: 100px;
+}
