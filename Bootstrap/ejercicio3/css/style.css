@@ -1,0 +1,15 @@
+body{
+    width: 98vw;
+}
+.gris-claro{
+    background-color: #EFF3F6;
+}
+.verde{
+    background-color: #99C942;
+}
+.gris{
+    background-color: #DCE4E7;
+}
+.line{
+    line-height: 2em;
+}
